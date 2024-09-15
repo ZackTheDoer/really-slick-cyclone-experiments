@@ -7,8 +7,8 @@
     "start": "webpack serve --open"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Zack Watts",
+  "license": "LGPL-3.0-or-later",
   "description": "",
   "dependencies": {
     "gh-pages": "^6.1.1",
