@@ -1,19 +1,37 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI-Generated Three.js Scenes</title><style>body {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Converting Screensavers with AI</title><style>body {
             font-family: Arial, sans-serif;
             padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
-        th, td {
+
+        th,
+        td {
             padding: 10px;
             border: 1px solid #ddd;
         }
+
         a {
             text-decoration: none;
             color: blue;
         }
+
         a:hover {
             text-decoration: underline;
-        }</style><script defer="defer" src="main.bundle.js"></script></head><body><h1>AI-Generated Three.js Scenes</h1><table><thead><tr><th>AI Model</th><th>Link</th></tr></thead><tbody><tr><td>OpenAI o1 preview</td><td><a href="o1/index.html">View Scene</a></td></tr><tr><td>Claude 3.5 Sonnet</td><td><a href="claude-35-sonnet/index.html">View Scene</a></td></tr><tr><td>OpenAI GPT 4o</td><td><a href="4o/index.html">View Scene</a></td></tr><tr><td>OpenAI GPT-4</td><td><a href="gpt4/index.html">View Scene</a></td></tr></tbody></table></body></html>
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }</style><script defer="defer" src="main.bundle.js"></script></head><body><h1>Converting Really Slick Screensavers cylone to three.js using AI</h1><p>I gave 4 LLMs this same prompt and asked them to convert a screen saver into three.js. The goal here is to attempt to convert Terence Welsh's excellent <a href="http://reallyslick.com/screensavers/">Really Slick Screensaver</a> cyclone code, origninally written in OpenGL and C and see how close we can get with each model. I had to fix very minor issues and the code is virutally untouched from what the LLMs provided.</p><p>The prompt includes the original, unmodified cyclone code and supplies a simple three.js scene as an example. In testing this, I noticed the models ran into problems with lighting and materials so the prompt asks to keep the rendering simple.</p><p>Claude 3.5 Sonnet and OpenAI's o1 preview both made torando-looking things. 4o made a stream of particles and GPT-4 produced a squiggly line.</p><div style="text-align: right"><a href="https://x.com/ZackTheDoer">-Zack</a></div><textarea readonly="readonly">
+    </textarea><table><thead><tr><th>Models used for conversion</th></tr></thead><tbody><tr><td><a href="o1/index.html">OpenAI o1 preview</a></td></tr><tr><td><a href="claude-35-sonnet/index.html">Claude 3.5 Sonnet</a></td></tr><tr><td><a href="4o/index.html">OpenAI GPT 4o</a></td></tr><tr><td><a href="gpt4/index.html">OpenAI GPT-4</a></td></tr></tbody></table></body></html>
